@@ -1,0 +1,1 @@
+$pdflatex = 'pdflatex %O %S; find . -name "*.aux" -type f -delete; mv main.pdf ../Tesi_Octavian_Alexandru.pdf';
